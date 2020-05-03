@@ -36,7 +36,7 @@ pipeline
             steps
             {
                 echo "Run the Calculator"
-                sh "java -cp target/calculator-1.0-SNAPSHOT.jar Calculator "3+5*(5/2)""
+                sh "java -cp target/calculator-1.0-SNAPSHOT.jar Calculator 3+5*5/2"
             }
         }
 
