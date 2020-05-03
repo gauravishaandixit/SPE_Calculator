@@ -22,7 +22,7 @@ pipeline
             }
         }
 
-        stage("Install the peoject")
+        stage("Install the project")
         {
             steps
             {
@@ -36,7 +36,7 @@ pipeline
             steps
             {
                 echo "Run the Calculator"
-                sh "java -cp target/calculator-1.0-SNAPSHOT.jar Calculator"
+                sh "java -cp target/calculator-1.0-SNAPSHOT.jar Calculator "3+5*(5/2)""
             }
         }
 
